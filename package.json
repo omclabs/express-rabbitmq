@@ -1,0 +1,29 @@
+{
+  "name": "express-rabbitmq",
+  "version": "1.0.0",
+  "description": "Express JS REST API to RabbitMQ",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "consumer": "nodemon consumer.js",
+    "test": "NODE_ENV=testing mocha --exit"
+  },
+  "author": "Fajar Pratama (omclabs@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.7.0",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "nodemon": "^2.0.7",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.3.0"
+  }
+}
