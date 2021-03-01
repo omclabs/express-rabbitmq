@@ -27,7 +27,7 @@ Express JS to RabbitMQ
 * curl --location --request POST 'localhost:3000/api/v1/post-to-rabbit' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-	  message: "Hello from here"
+	  "message": "Hello from here"
 }'
 
 ### Contribution guidelines ###
