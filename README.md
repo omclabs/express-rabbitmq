@@ -24,7 +24,7 @@ Express JS to RabbitMQ
 * Install RabbitMQ, simply using docker image https://hub.docker.com/_/rabbitmq
 
 *** CURL
-curl --location --request POST 'localhost:3000/api/v1/post-to-rabbit' \
+* curl --location --request POST 'localhost:3000/api/v1/post-to-rabbit' \
 --header 'Content-Type: application/json' \
 --data-raw '{
 	  message: "Hello from here"
