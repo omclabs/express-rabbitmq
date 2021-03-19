@@ -5,7 +5,7 @@ Express JS to RabbitMQ
 ### What is this repository for? ###
 
 * a REST API using ExpressJS to create a message in Rabbit MQ
-* Include a listener for processing the message in Rabbit MQ
+* Listener for processing the message in Rabbit MQ
 
 ### How do I get set up? ###
 
@@ -13,8 +13,8 @@ Express JS to RabbitMQ
 * Install NodeJS dan NPM https://nodejs.org/en/
 * Clone this Repo
 * Run npm install
-* copy .env.example -> .env
-* copy .env.example -> .env.testing
+* copy `.env.example` -> `.env`
+* copy `.env.example` -> `.env.testing`
 * Adjust .env to your environment
 * type `npm start` to run the web server
 * type `npm run test` to run unit testing
@@ -29,8 +29,6 @@ Express JS to RabbitMQ
 --data-raw '{
 	  "message": "Hello from here"
 }'
-
-### Contribution guidelines ###
 
 ### Who do I talk to? ###
 
