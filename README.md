@@ -32,5 +32,5 @@ Express JS to RabbitMQ
 
 ### Who do I talk to? ###
 
-* omclabs@gmail.com
+* Fajar Pratama - omclabs@gmail.com
 
